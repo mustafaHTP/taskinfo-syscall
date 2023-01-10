@@ -4,7 +4,7 @@
 > task_time_info system call is between lines 2732 and 2799 in sys.c.
 >> its system call number is 451
 
-# Task Info System Call
+# Task Time Info System Call
 
 ``task_time_info`` is system call that calculates the total time of the process that matches the given *pid* number. When no argument is given, it finds the duration of the process has **the biggest running time**. What is meant by **the biggest running time** here is to find the process that has the biggest sum of **utime** and **stime**.
 
